@@ -1,7 +1,7 @@
 # frontend layout
 
 This is a simple project which contains basic strucure for starting a frontend application.
-This project contains the follwing elements :
+This project contains the following elements :
 bootstrap@3.3.5 (scss), 
 angularJS + ui.router, 
 jquery, 
