@@ -1,3 +1,8 @@
-.idea/
-static/src/compass/stylesheets
-static/src/compass/.sass-cache
+static/build/
+static/dist/
+static/app/config.js
+/static/app/jspm_packages/
+/static/app/assets/stylesheets/*.css
+/static/app/assets/stylesheets/*.map
+/static/node_modules
+.idea

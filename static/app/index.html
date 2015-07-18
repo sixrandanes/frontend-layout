@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="./assets/stylesheets/index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+<div ui-view></div>
+
+<script type="text/javascript" src="jspm_packages/system.js"></script>
+<script type="text/javascript" src="config.js"></script>
+
+<script>
+    System.import('./bootstrap').catch(function (ex) {
+        console.error('Internal Error ', ex && ex.stack || ex)
+    });
+
+</script>
+</body>
+
+</html>
